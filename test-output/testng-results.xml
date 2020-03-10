@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32691" started-at="2020-03-10T06:43:43Z" finished-at="2020-03-10T06:44:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32691" started-at="2020-03-10T06:43:43Z" finished-at="2020-03-10T06:44:15Z">
+      <class name="ProjectCar.Goibibo_Car_Vertical.Goibibo_Car_Vertical">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ProjectCar.Goibibo_Car_Vertical.Goibibo_Car_Vertical@402a079c]" name="beforeClass" is-config="true" duration-ms="13611" started-at="2020-03-10T06:43:43Z" finished-at="2020-03-10T06:43:56Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="icon()[pri:0, instance:ProjectCar.Goibibo_Car_Vertical.Goibibo_Car_Vertical@402a079c]" name="icon" duration-ms="2097" started-at="2020-03-10T06:43:56Z" finished-at="2020-03-10T06:43:58Z">
+        </test-method> <!-- icon -->
+        <test-method status="PASS" signature="car_hompage()[pri:1, instance:ProjectCar.Goibibo_Car_Vertical.Goibibo_Car_Vertical@402a079c]" name="car_hompage" duration-ms="7747" started-at="2020-03-10T06:43:58Z" finished-at="2020-03-10T06:44:06Z">
+        </test-method> <!-- car_hompage -->
+        <test-method status="PASS" signature="car_review_page()[pri:2, instance:ProjectCar.Goibibo_Car_Vertical.Goibibo_Car_Vertical@402a079c]" name="car_review_page" duration-ms="2049" started-at="2020-03-10T06:44:06Z" finished-at="2020-03-10T06:44:08Z">
+        </test-method> <!-- car_review_page -->
+        <test-method status="PASS" signature="payment_page()[pri:3, instance:ProjectCar.Goibibo_Car_Vertical.Goibibo_Car_Vertical@402a079c]" name="payment_page" duration-ms="5304" started-at="2020-03-10T06:44:08Z" finished-at="2020-03-10T06:44:13Z">
+        </test-method> <!-- payment_page -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ProjectCar.Goibibo_Car_Vertical.Goibibo_Car_Vertical@402a079c]" name="afterClass" is-config="true" duration-ms="1852" started-at="2020-03-10T06:44:13Z" finished-at="2020-03-10T06:44:15Z">
+        </test-method> <!-- afterClass -->
+      </class> <!-- ProjectCar.Goibibo_Car_Vertical.Goibibo_Car_Vertical -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

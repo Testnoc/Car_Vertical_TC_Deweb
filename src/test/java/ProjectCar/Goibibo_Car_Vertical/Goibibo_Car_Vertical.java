@@ -55,6 +55,8 @@ public class Goibibo_Car_Vertical {
 	  
 	  driver.findElement(By.xpath(destination_station)).click();
 	  
+	  Thread.sleep(4000);
+	  
 	  driver.findElement(By.xpath(Enter_location)).sendKeys("agra");
 	  
 		driver.findElement(By.id("react-autosuggest-1-suggestion--0")).click();
