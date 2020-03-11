@@ -59,8 +59,12 @@ public class Goibibo_Car_Vertical {
 	  
 	  driver.findElement(By.xpath(Enter_location)).sendKeys("agra");
 	  
+	  Thread.sleep(3000);
+	  
 		driver.findElement(By.id("react-autosuggest-1-suggestion--0")).click();
-
+		
+		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath(search_cabs)).click();
 		
      if(driver.findElement(By.xpath(popup_window)).isDisplayed()) {
@@ -71,7 +75,7 @@ public class Goibibo_Car_Vertical {
      
      else {
     	 
-    	 driver.findElement(By.xpath(popup_window)).click();
+   	  driver.findElement(By.xpath(Add_contact_details)).click();
      }
 
      
@@ -81,7 +85,6 @@ public class Goibibo_Car_Vertical {
   
   public void car_review_page() {
 	  
-	  driver.findElement(By.xpath(Add_contact_details)).click();
 	  
 	  driver.findElement(By.xpath(title)).click();
 	  
