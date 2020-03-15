@@ -83,7 +83,7 @@ public class Goibibo_Car_Vertical {
   
   @Test(priority=2)
   
-  public void car_review_page() {
+  public void car_review_page() throws InterruptedException {
 	  
 	  
 	  driver.findElement(By.xpath(title)).click();
@@ -96,6 +96,8 @@ public class Goibibo_Car_Vertical {
 	  
 	  driver.findElement(By.xpath(continue_button)).click();
 	
+	  Thread.sleep(2000);
+	  
 	  driver.findElement(By.xpath(pay_button)).click();
 		
   }
@@ -103,6 +105,9 @@ public class Goibibo_Car_Vertical {
   @Test(priority=3)
   
   public void payment_page() throws InterruptedException {
+	  
+	  Thread.sleep(3000);
+
 	  
 	  driver.findElement(By.xpath(netbanking)).click();
 	  
